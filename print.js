@@ -40,5 +40,5 @@ function CheckScans(){
 	});
 	
 }
-
+console.log('En attente de nouveau fichier'.blue);
 setInterval(CheckScans,TIME_DELAY);
